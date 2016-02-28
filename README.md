@@ -55,3 +55,10 @@ Performs an SPI transaction. Chip-select should be held active between blocks.
     close()
 
 Disconnects from the SPI device.
+
+Setting Raspberry Pi
+    wget https://github.com/topclassic/py_spidev/archive/master.zip
+    unzip master.zip
+    rm master.zip
+    cd py_spidev
+    sudo python setup.py install
